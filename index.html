@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes" />
+    <title>Mohamed & Youkyung</title>
+
+    <!-- meta: og -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=/>
+    <meta property="og:title" content="Mohamed & Youkyung" />
+    <meta property="og:image" content="./assets/images/og_image.jpg" />
+    <meta property="og:description" content="2023.03.18 6:30 pm VILLA DE TOV HESED, SEOUL, KOREA" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- custom -->
+    <link rel="stylesheet" href="./vendor/material-icons.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <main class="fixed">
+      <!-- intro -->
+      <section id="intro">
+        <div class="img-box"></div>
+        <div class="text-box">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+          <h1 class="split">Mohamed & Youkyung</h1>
+          <h2 class="date">2023.03.18 6:30 pm </h2>
+          <h2 class="place">VILLA DE TOV HESED, SEOUL, KOREA</h2>
+        </div>
+        <div id="touch-box" class="animate-area">
+          <div class="animate-box">
+            <i></i>
+          </div>
+          <small>아이콘을 눌러 청첩장을 열어주세요<br /><span>음악이 나옵니다. 볼륨을 주의하세요.</span></small>
+        </div>
+        <audio id="bgm">
+          <source src="./assets/bgm.mp3" type="audio/mp3" />
+        </audio>
+        <!-- <audio id="bgm" loop>
+          <source src="https://docs.google.com/uc?export=open&id=1ZQfwpIVYThDDPLgRmM1Y2IloJnn1I_qo" type="audio/mp3" />
+        </audio> -->
+        <!-- <audio id="bgm" src="https://drive.google.com/file/d/1ZQfwpIVYThDDPLgRmM1Y2IloJnn1I_qo/view?usp=sharing" loop></audio> -->
+        <!-- https://firebasestorage.googleapis.com/v0/b/realtime-database-3298b.appspot.com/o/bgm.mp3?alt=media&token=891f6d04-ac7f-4159-8cdd-399aee62efd3 -->
+      </section>
+
+      <!-- visual -->
+      <section id="visual">
+        <div class="img-box">
+          <div id="scroll-box" class="animate-area">
+            <div class="animate-box">
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- bottom -->
+      <section id="bottom">
+        <div class="inner">
+          <!-- poem -->
+          <article class="poem">
+            <img src="./assets/images/illust.png" />
+            <p class="mt-5">
+              Parce que pour nous c’est important,<br />
+parce que l’on s’aime depuis longtemps,<br />
+parce que maintenant il est temps.<br />
+
+Entourés de leurs parents,<br />
+Youkyung & Mohamed<br />
+sont heureux de vous faire part<br />
+de leur mariage qui sera célébré<br />
+Le 18 mars 2023 à 18:00 (heure de Corée)<br />
+              
+              <span class="text-secondary"></span>
+            </p>
+          </article>
+
+          <!-- greeting -->
+          <article class="greeting no-bar">
+            <p>
+            <div class="parents">
+              <div>
+                <div class="circle-box">
+                  <strong>El Rahali ZAHHAR</strong>
+                  <strong>Saliki FATIMA</strong>
+                </div>
+                <span></span>
+                <strong>Mohamed</strong>
+              </div>
+              <div>
+                <div class="circle-box">
+                  <strong>Sungkyun LEE</strong>
+                  <strong>Eunhee JUNG</strong>
+                </div>
+                <span></span>
+                <strong>Youkyung</strong>
+              </div>
+            </div>
+          </article>
+
+          <!-- album -->
+          <article class="album no-bar">
+            <div class="swiper">
+              <div class="swiper-button-box">
+                <small>* 사진을 넘겨보세요.<br />&nbsp;&nbsp;(확대할 수 있어요🙂)</small>
+                <div class="flex-end">
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    <img data-src="./assets/images/b1.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    <img data-src="./assets/images/b2.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    <img data-src="./assets/images/b3.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    <img data-src="./assets/images/b4.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-zoom-container">
+                    <img data-src="./assets/images/b5.jpg" class="swiper-lazy" />
+                    <div class="swiper-lazy-preloader"></div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="swiper-scrollbar"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </article>
+
+          <!-- calendar -->
+          <article class="calendar">
+            <div class="title-area">
+              <h6>
+                2023년 03월 18일 토요일<br />
+                오후 6시 30분
+              </h6>
+            </div>
+            <div class="table-box">
+              MARCH
+              <table>
+                <thead>
+                  <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>The</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                  </tr>
+                <tbody>
+                  <tr>
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                          <td>1</td>
+                      <td>2</td>
+                      <td>3</td>
+                      <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                      <td>6</td>
+                      <td>7</td>
+                      <td>8</td>
+                      <td>9</td>
+                      <td>10</td>
+                      <td>11</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>13</td>
+                      <td>14</td>
+                      <td>15</td>
+                      <td>16</td>
+                      <td>17</td>
+                      <td><strong>18</strong></p></div></td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>20</td>
+                      <td>21</td>
+                      <td>22</td>
+                      <td>23</td>
+                      <td>24</td>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <td>26</td>
+                      <td>27</td>
+                      <td>28</td>
+                      <td>29</td>
+                      <td>30</td>
+                      <td>31</td>
+                      <td>   </td>
+                    </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <!-- direction -->
+          <article class="direction">
+            <div class="title-area">
+              <h6>Lieu</h6><br>
+              <h6>VILLA DE TOV HESED</h6>
+              <p><span id="copy-addr">SEOUL, KOREA</span> </p>
+        
+            </div>
+            <div class="map-box">
+              <div class="my-3">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.5490071261947!2d127.0305432146548!3d37.51855373463359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3456ec1ff6d%3A0x1f840b7651bca2bb!2z7Yag67iM7Zek7IS465Oc!5e0!3m2!1sko!2skr!4v1674899550426!5m2!1sko!2skr"  width="500" height="350" style="border:0;" allowfullscreen></iframe>
+							</div>
+              <div class="mask"></div>
+            </div>
+           
+            </div>
+            <p class="detail">
+            
+          </article>
+
+          <!-- youtube-->
+          <article class="direction">
+            <div class="title-area">
+                <h6>Mariage en direct-live</h6><br>
+                <a href="https://tovhesed.com/app/service/youtube.php">
+                  <img alt="youtube" class="youtube" id="youtube"
+                     src="./assets/images/youtube.png" style="width:40%; height:auto;"/>
+                     <br> <a href="https://tovhesed.com/app/service/youtube.php"> Please Click </a><br>
+  
+                                       <br> SEOUL TIME 2023.03.18. 6:30PM
+                     
+                                        <br> CASABLANCA TIME 2023.03.18 10:30AM 
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="goodbye no-bar py-3">
+            <div class="title-area">
+              <p>
+                코로나19로 인하여 참석에 대한<br />
+                부담을 갖지 않으시길 바라는 마음입니다.<br />
+                멀리서나마 축복해 주시면 그 마음 안고<br />
+                감사히 여기며 살겠습니다.<br /><br />
+                감사합니다.<br /><br /><br /><br />
+                
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+     
+    </main>
+
+    <!-- jquery.3.6.1 -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+
+    <!-- bootstrap.5.2.2 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- gsap.3.11.0 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/TextPlugin.min.js"></script>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+   
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+  </body>
+</html>
